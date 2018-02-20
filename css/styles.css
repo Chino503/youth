@@ -1,0 +1,71 @@
+/*
+General editing
+*/
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: Avenir, Arial, sans-serif;
+	margin: 0;
+}
+
+/*
+Navy blue background body
+*/
+body {
+	background: #011627;
+}
+
+#main-header {
+	background: #FDFFFC;
+	margin: 0;
+	padding: 4rem;
+	text-align: center;
+	color: #011627;
+}
+
+#main-header h1{
+	font-size: 2.5rem;
+}
+
+#main-header p {
+	font-size: 1.3rem;
+}
+
+#search {
+	width: 70%;
+	margin: 2rem auto;
+	color: #FDFFFC;
+}
+
+#search h3 {
+	font-size: 1.5rem;
+}
+
+#search p {
+	font-size: 1.2rem;
+	margin: 0.5rem 0;
+}
+
+#search input[type='text'] {
+	margin: 0.5rem 0;
+	border: none;
+	display: block;
+	width: 100%;
+	border-radius: 0.1rem;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+#getTema {
+	width: 100%;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	font-weight: bold;
+	border-radius: 0.1rem;
+	border: none;
+	cursor: pointer;
+	background: #E71D36;
+	color: #fff;
+}
+
