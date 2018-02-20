@@ -4,6 +4,7 @@ const btnGetTema = document.querySelector('#getTema');
 let searchQuery = document.querySelector('#searchQuery');
 let youthName;
 let result = '';
+let id;
 
 
 btnGetTema.addEventListener('click', () => {
@@ -13,7 +14,10 @@ btnGetTema.addEventListener('click', () => {
 	for (var i = 0; i < youth.length; i++) {
 		youthName = youth[i];
 		if(youthName.first_name === searchQuery.value){
-			console.log(youthName.tema_id);
+			id = youthName.tema_id;
+			console.log(youthName.first_name);
+			console.log(tema[id - 1].content);
 		}
 	}
 });
+
