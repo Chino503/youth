@@ -31,13 +31,14 @@ body {
 	font-size: 1.3rem;
 }
 
-#search {
-	width: 70%;
+#search, #result {
+	width: 80%;
 	margin: 2rem auto;
 	color: #FDFFFC;
 }
 
-#search h3 {
+#search h3,
+#result h3 {
 	font-size: 1.5rem;
 }
 
@@ -55,6 +56,12 @@ body {
 	padding: 0.5rem;
 	font-size: 1.3rem;
 	text-align: center;
+}
+
+#result {
+	border: 1px solid #fff;
+	padding: 1rem;
+	border-radius: 5px;
 }
 
 #getTema {
