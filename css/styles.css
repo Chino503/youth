@@ -15,6 +15,10 @@ body {
 	background: #011627;
 }
 
+.hide {
+	display: none;
+}
+
 #main-header {
 	background: #FDFFFC;
 	margin: 0;
@@ -31,7 +35,7 @@ body {
 	font-size: 1.3rem;
 }
 
-#search, #result {
+#search, #result, #back {
 	width: 80%;
 	margin: 2rem auto;
 	color: #FDFFFC;
@@ -64,7 +68,7 @@ body {
 	border-radius: 5px;
 }
 
-#getTema {
+.btn {
 	width: 100%;
 	font-size: 1.5rem;
 	padding: 0.5rem;
